@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/item_action_game"
+        android:icon="@drawable/search_game"
+        android:orderInCategory="100"
+        android:title="游戏中心"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_action_download"
+        android:icon="@drawable/search_download"
+        android:orderInCategory="100"
+        android:title="离线缓存"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_action_search"
+        android:icon="@drawable/search_action"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="always" />
+
+</menu>

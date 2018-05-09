@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb7299</color>
+    <color name="colorPrimaryDark">#b85671</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="base_pink">#fb7299</color> <!-- 全局蓝色 -->
+    <color name="base_pink_dark">#b85671</color> <!-- 全局蓝色 -->
+    <color name="base_accent">#212121</color> <!-- 全局蓝色 -->
+
+    <color name="base_blue">#4684BE</color> <!-- 全局蓝色 -->
+    <color name="base_blue_light">#B2C5E0</color> <!-- 全局蓝色 -->
+    <color name="base_blue_tint">#c5d9ee</color> <!-- 全局蓝色 -->
+    <color name="base_gray">#9B9B9B</color> <!-- 全局灰色 -->
+    <color name="base_green">#23A859</color> <!-- 全局绿色 -->
+    <color name="base_orange">#C67A3D</color> <!-- 全局橙色 -->
+    <color name="base_black_tran">#40000000</color> <!-- 全局透明 -->
+    <color name="base_black">#212121</color> <!-- 全局黑色 -->
+    <color name="base_red">#EA4335</color> <!-- 全局红色 -->
+    <color name="base_yellow">#FBBC05</color> <!-- 全局黄色 -->
+    <color name="base_white">#FFFFFF</color> <!-- 全局白色 -->
+
+    <color name="base_bg_yellow">#FFD11B</color> <!-- 按钮背景黄色-->
+    <color name="base_bg_green">#75C568</color> <!-- 按钮背景绿色-->
+    <color name="base_bg_gray">#BEBBB4</color> <!-- 按钮背景灰色 -->
+
+
+    <color name="base_transparent">#00000000</color> <!-- 透明 -->
+
+    <color name="base_green_text">#81C784</color>
+
+    <color name="gray_light">#dcdcdc</color>
+
+    <color name="base_white_line">#e6e6e6</color>
+    <color name="base_gray_line">#dcdcdc</color>
+
+    <color name="base_black_line">#212121</color>
+
+    <color name="dark_black_text">#555555</color>
+    <color name="light_black_text">#71000000</color>
+
+    <color name="window_background">#eaeaea</color>
+</resources>

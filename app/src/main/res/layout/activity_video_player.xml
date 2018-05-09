@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/playerFrame"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.xuan.myframework.widget.video.MediaPlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <master.flame.danmaku.ui.widget.DanmakuView
+        android:id="@+id/danmaku_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+
+    <include layout="@layout/include_circle_progress"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_start_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/base_white"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/anim_video_loading"/>
+
+        <TextView
+            android:id="@+id/tv_start_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="初始化播放器"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

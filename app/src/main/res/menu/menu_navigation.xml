@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:checked="true"
+            android:icon="@drawable/item_home"
+            android:title="主页" />
+
+        <item
+            android:id="@+id/item_vip"
+            android:checkable="true"
+            android:icon="@drawable/item_vip"
+            android:title="我的大会员" />
+
+        <item
+            android:id="@+id/item_download"
+            android:checkable="true"
+            android:icon="@drawable/item_download"
+            android:title="离线缓存" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/menu_mime"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_favourite"
+            android:checkable="true"
+            android:icon="@drawable/item_favourite"
+            android:title="我的收藏" />
+
+        <item
+            android:id="@+id/item_history"
+            android:checkable="true"
+            android:icon="@drawable/item_history"
+            android:title="历史记录" />
+
+
+        <item
+            android:id="@+id/item_concerned"
+            android:icon="@drawable/item_concerned"
+            android:checkable="true"
+            android:title="关注的人" />
+        <item
+            android:id="@+id/item_purse"
+            android:checkable="true"
+            android:icon="@drawable/item_purse"
+            android:title="我的钱包" />
+
+    </group>
+
+
+    <group android:id="@+id/menu_setting"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/item_theme"
+            android:checkable="true"
+            android:icon="@drawable/item_theme"
+            android:title="主题选择" />
+
+        <item
+            android:id="@+id/item_application"
+            android:checkable="true"
+            android:icon="@drawable/item_application"
+            android:title="应用推荐" />
+
+
+        <item
+            android:id="@+id/item_settings"
+            android:checkable="true"
+            android:icon="@drawable/item_settings"
+            android:title="设置与帮助" />
+
+    </group>
+
+</menu>
