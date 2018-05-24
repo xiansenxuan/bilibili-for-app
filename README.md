@@ -1,7 +1,6 @@
 # bilibili-for-app
 仿哔哩哔哩移动端
-应用架构：
-XuanRecyclerView
+
 ========
 - 一个开源哔哩哔哩移动端
 - 采用MVP架构
